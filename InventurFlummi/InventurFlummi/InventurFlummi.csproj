@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="20211127_101158.jpg" />
+    <None Remove="20211229_143238.jpg" />
+    <None Remove="20220125_150512.jpg" />
+    <None Remove="20220312_130550.jpg" />
+    <None Remove="20220514_221406.jpg" />
+    <None Remove="20220805_144859.jpg" />
+    <None Remove="20221120_141748.jpg" />
+    <None Remove="20221216_174524.jpg" />
+    <None Remove="MicrosoftTeams-image.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="20211127_101158.jpg" />
+    <Resource Include="20211229_143238.jpg" />
+    <Resource Include="20220125_150512.jpg" />
+    <Resource Include="20220312_130550.jpg" />
+    <Resource Include="20220514_221406.jpg" />
+    <Resource Include="20220805_144859.jpg" />
+    <Resource Include="20221120_141748.jpg" />
+    <Resource Include="20221216_174524.jpg" />
+    <Resource Include="MicrosoftTeams-image.png" />
+  </ItemGroup>
+
+</Project>
