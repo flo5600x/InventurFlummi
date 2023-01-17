@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:InventurFlummi"
         mc:Ignorable="d"
         Title="Login" Height="450" Width="800">
-    <Grid Background="#FF595959">
+    <Grid Background="#FF262626">
         <Rectangle HorizontalAlignment="Left" Height="370" Margin="21,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="311" Fill="#FF0D0D0D" StrokeDashCap="Square" RadiusX="5" RadiusY="5"/>
         <TextBox x:Name="user" HorizontalAlignment="Left" Height="33" Margin="36,145,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="281" Background="#FF595959" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16"/>
         <TextBox x:Name="password" HorizontalAlignment="Left" Height="33" Margin="36,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" Background="#FF595959" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16"/>
