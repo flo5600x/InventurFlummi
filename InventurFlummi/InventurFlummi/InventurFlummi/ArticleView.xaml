@@ -6,7 +6,78 @@
         xmlns:local="clr-namespace:InventurFlummi"
         mc:Ignorable="d"
         Title="ArticleView" Height="450" Width="800">
-    <Grid>
-        
+
+    <Grid Background="#A6A6A6">
+        <Rectangle HorizontalAlignment="Center" VerticalAlignment="Top" Width="756" Height="33" Fill="#595959" Margin="0,10,0,0"></Rectangle>
+        <TextBox x:Name="search" Text="Suche"  HorizontalAlignment="Left" Height="33" Margin="19,10,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="768" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16" Background="Transparent"/>
+        <Rectangle HorizontalAlignment="Left" Height="286" Margin="0,68,0,0" Stroke="White" VerticalAlignment="Top" Width="145" Fill="#262626" RadiusX="5" RadiusY="5"/>
+        <Rectangle HorizontalAlignment="Left" Height="211" Margin="19,126,12,0" Stroke="White" VerticalAlignment="Top" Width="107" Fill="#FD0D0D0D" RadiusX="5" RadiusY="5"/>
+        <Label Content="Filter:" HorizontalAlignment="Left" Margin="12,78,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" Width="65" Height="35"/>
+        <Label Content="Preis" HorizontalAlignment="Left" Height="29" Margin="29,133,0,0" VerticalAlignment="Top" Width="87" Foreground="White"/>
+        <RadioButton Content="aufsteigend" HorizontalAlignment="Left" Margin="26,162,0,0" VerticalAlignment="Top" Foreground="White" FontSize="8" GroupName="price" Width="80" Height="15" />
+        <RadioButton Content="absteigend" HorizontalAlignment="Left" Margin="26,183,0,0" VerticalAlignment="Top" Foreground="White" FontSize="8" GroupName="price" Width="78" Height="15"/>
+
+        <Slider HorizontalAlignment="Left" Height="16" Margin="26,207,0,0" VerticalAlignment="Top" Width="93" Maximum="9999" Minimum="1"/>
+        <Rectangle HorizontalAlignment="Right" Height="286" Margin="0,68,0,0" Stroke="White" VerticalAlignment="Top" Width="133" Fill="#262626" RadiusX="5" RadiusY="5"/>
+        <Label Content="Menu" HorizontalAlignment="Right" Margin="0,78,32,0" VerticalAlignment="Top" Foreground="White" FontSize="16" Width="65" Height="35"/>
+        <Button Content="Artikel hinzufügen" HorizontalAlignment="Right" Height="27" Margin="0,113,10,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
+        <Button Content="Layout ändern" HorizontalAlignment="Right" Height="27" Margin="0,135,10,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
+        <Button Content="Zu Kundenansicht wechseln" HorizontalAlignment="Right" Height="31" Margin="681,158,0,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070" FontSize="8"/>
+        <Button Content="Bestellungen" HorizontalAlignment="Right" Height="31" Margin="0,184,10,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
+        <Button Content="Einstellungen" HorizontalAlignment="Right" Height="31" Margin="0,211,10,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
+        <Button Content="Abmelden" HorizontalAlignment="Right" Height="27" Margin="0,310,10,0" VerticalAlignment="Top" Width="109" Background="#FFFF667B" Foreground="White"/>
+
+        <ScrollViewer Margin="165,68,150,10">
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*" />
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                    </Grid.RowDefinitions>
+
+                    <Rectangle Grid.Column="0" Grid.Row="0" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.Row="0" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Label Grid.Column="0" Grid.Row="0" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
+                    <Image Grid.Column="0"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="/20211127_101158.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
+
+
+                    <Rectangle Grid.Column="1" Grid.Row="0" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="2" Grid.Row="0" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Label  Grid.Column="1" Grid.Row="0" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
+                    <Image Grid.Column="1" Grid.Row="0" Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="/20211229_143238.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
+
+
+                    <Rectangle Grid.Column="0" Grid.Row="1" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.Row="1" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Label  Grid.Column="0" Grid.Row="1" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
+                    <Image Grid.Column="0" Grid.Row="1"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="/20221216_174524.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
+
+
+                    <Rectangle Grid.Column="1" Grid.Row="1" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="1" Grid.Row="1" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Label Grid.Column="1" Grid.Row="1" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
+                    <Image Grid.Column="1" Grid.Row="1"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Stretch="UniformToFill" StretchDirection="DownOnly" Source="/20221120_141748.jpg"/>
+
+                    <Rectangle Grid.Column="0" Grid.Row="2" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.Row="2" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Label Grid.Column="0" Grid.Row="2" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
+                    <Image Grid.Column="0" Grid.Row="2"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="/20220125_150512.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
+
+
+
+
+
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>
