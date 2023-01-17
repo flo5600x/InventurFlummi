@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:InventurFlummi"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FF4C4C4C">
-        <Rectangle HorizontalAlignment="Left" Height="370" Margin="21,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="311" Fill="#FF060606" StrokeDashCap="Square" RadiusX="5" RadiusY="5"/>
-        <TextBox x:Name="user" HorizontalAlignment="Left" Height="33" Margin="36,145,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="281" Background="#FF4C4C4C" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16"/>
-        <TextBox x:Name="password" HorizontalAlignment="Left" Height="33" Margin="36,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" Background="#FF4C4C4C" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16"/>
+    <Grid Background="#FF595959">
+        <Rectangle HorizontalAlignment="Left" Height="370" Margin="21,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="311" Fill="#FF0D0D0D" StrokeDashCap="Square" RadiusX="5" RadiusY="5"/>
+        <TextBox x:Name="user" HorizontalAlignment="Left" Height="33" Margin="36,145,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="281" Background="#FF595959" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Height="33" Margin="36,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" Background="#FF595959" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16"/>
         <Label Content="Einloggen um fortzufahren" HorizontalAlignment="Left" Margin="30,55,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24"/>
         <Label Content="E-Mail-Adresse:" HorizontalAlignment="Left" Margin="30,109,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16"/>
         <Label Content="Passwort:" HorizontalAlignment="Left" Margin="30,195,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16"/>
