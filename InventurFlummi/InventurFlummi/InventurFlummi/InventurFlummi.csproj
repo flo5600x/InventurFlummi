@@ -9,14 +9,18 @@
 
   <ItemGroup>
     <None Remove="20211229_143238.jpg" />
+    <None Remove="danke1.png" />
     <None Remove="MicrosoftTeams-image.png" />
     <None Remove="mull.png" />
+    <None Remove="Star-Tattoos-Free-Download-PNG.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="20211229_143238.jpg" />
+    <Resource Include="danke1.png" />
     <Resource Include="MicrosoftTeams-image.png" />
     <Resource Include="mull.png" />
+    <Resource Include="Star-Tattoos-Free-Download-PNG.png" />
   </ItemGroup>
 
 </Project>

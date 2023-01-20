@@ -23,5 +23,10 @@ namespace InventurFlummi
         {
             InitializeComponent();
         }
+
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<T> e)
+        {
+
+        }
     }
 }
