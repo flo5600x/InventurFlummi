@@ -6,7 +6,20 @@
         xmlns:local="clr-namespace:InventurFlummi"
         mc:Ignorable="d"
         Title="Profile" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FF262626">
+        <Rectangle HorizontalAlignment="Center" Height="380" Stroke="Black" VerticalAlignment="Center" Width="768" Fill="#FF595959" RadiusX="5" RadiusY="5"/>
+        <Label Content="Vorname: " HorizontalAlignment="Left" Margin="79,126,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <TextBox x:Name="vorname" HorizontalAlignment="Left" Height="25" Margin="213,130,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="281" Background="#FFA6A6A6" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16"/>
+        <Label Content="Nachname: " HorizontalAlignment="Left" Margin="79,175,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <Label Content="Zahlungsart: " HorizontalAlignment="Left" Margin="79,226,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <TextBox x:Name="nachname" HorizontalAlignment="Left" Height="25" Margin="213,184,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="281" Background="#FFA6A6A6" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16"/>
+        <Label Content="Profil" HorizontalAlignment="Center" Margin="0,52,0,0" VerticalAlignment="Top" FontSize="30" Background="{x:Null}" Foreground="White"/>
+        <Image HorizontalAlignment="Left" Height="142" Margin="592,131,0,0" VerticalAlignment="Top" Width="162" Source="/hero-char.png"/>
+        <Button Content="Bild Hochladen" HorizontalAlignment="Left" Height="26" Margin="592,292,0,0" VerticalAlignment="Top" Width="142"/>
+        <Image HorizontalAlignment="Left" Height="54" Margin="213,252,0,0" VerticalAlignment="Top" Width="55" Source="/visa.png"/>
+        <Image HorizontalAlignment="Left" Height="51" Margin="328,255,0,0" VerticalAlignment="Top" Width="50" Source="/pp.png"/>
+        <Image HorizontalAlignment="Left" Height="51" Margin="435,255,0,0" VerticalAlignment="Top" Width="50" Source="/meow.png"/>
+        <Button Content="Konto Löschen" HorizontalAlignment="Left" Height="44" Margin="79,345,0,0" VerticalAlignment="Top" Width="167" Background="#FFFF667B" Foreground="White"/>
+        <Button Content="Speichern" HorizontalAlignment="Left" Height="44" Margin="567,345,0,0" VerticalAlignment="Top" Width="167" Background="#FFFF667B" Foreground="White"/>
     </Grid>
 </Window>
