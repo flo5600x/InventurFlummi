@@ -8,7 +8,7 @@
         Title="Product" Height="450" Width="800">
     <Grid Background="#FF262626">
         <Rectangle HorizontalAlignment="Center" Height="380" Stroke="Black" VerticalAlignment="Center" Width="768" Fill="#FF595959" RadiusX="5" RadiusY="5"/>
-        <Image HorizontalAlignment="Left" Height="206" Margin="552,88,0,0" VerticalAlignment="Top" Width="234" Source="/20211229_143238.jpg" Stretch="Fill" StretchDirection="DownOnly" RenderTransformOrigin="0.5,0.5">
+        <Image HorizontalAlignment="Left" Height="206" Margin="555,85,0,0" VerticalAlignment="Top" Width="228" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/20211229_143238.jpg" Stretch="Fill" StretchDirection="DownOnly" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -24,7 +24,7 @@
         <Label Content="...&#xD;&#xA;" HorizontalAlignment="Left" Height="163" Margin="39,139,0,0" VerticalAlignment="Top" Width="506"/>
         <Label Content="XXX EUR" HorizontalAlignment="Left" Margin="39,314,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
         <Label Content="XX" HorizontalAlignment="Left" Margin="478,307,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" RenderTransformOrigin="0.352,1.15"/>
-        <Image HorizontalAlignment="Left" Height="24" Margin="514,312,0,0" VerticalAlignment="Top" Width="32" Source="/Trash-Clipart-PNG-File.png"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="514,312,0,0" VerticalAlignment="Top" Width="32" Source="IMAGES/Trash-Clipart-PNG-File.png"/>
         <Button Content="Produkt bearbeiten" HorizontalAlignment="Left" Height="39" Margin="39,353,0,0" VerticalAlignment="Top" Width="206" Background="#FFFF667B" Foreground="White"/>
     </Grid>
 </Window>

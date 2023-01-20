@@ -8,7 +8,7 @@
         Title="ProductViewCustomer" Height="450" Width="800">
     <Grid Background="#FF262626">
         <Rectangle HorizontalAlignment="Center" Height="380" Stroke="Black" VerticalAlignment="Center" Width="768" Fill="#FF595959" RadiusX="5" RadiusY="5"/>
-        <Image HorizontalAlignment="Left" Height="206" Margin="552,88,0,0" VerticalAlignment="Top" Width="234" Source="/20211229_143238.jpg" Stretch="Fill" StretchDirection="DownOnly" RenderTransformOrigin="0.5,0.5">
+        <Image HorizontalAlignment="Left" Height="206" Margin="555,85,0,0" VerticalAlignment="Top" Width="228" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/20211229_143238.jpg" Stretch="Fill" StretchDirection="DownOnly" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -25,7 +25,18 @@
         <Label Content="XXX EUR" HorizontalAlignment="Left" Margin="39,306,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
         <Label Content="XX" HorizontalAlignment="Left" Margin="489,306,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" RenderTransformOrigin="0.352,1.15"/>
         <Button Content="In den Warenkorb" HorizontalAlignment="Left" Height="39" Margin="39,353,0,0" VerticalAlignment="Top" Width="206" Background="#FFFF667B" Foreground="White"/>
-        <Image HorizontalAlignment="Left" Height="32" Margin="340,54,0,0" VerticalAlignment="Top" Width="37" Source="/Star-Tattoos-Free-Download-PNG.png"/>
-        <Image HorizontalAlignment="Left" Height="12" Margin="477,317,0,0" VerticalAlignment="Top" Width="14" Source="/danke1.png"/>
+        <Image HorizontalAlignment="Left" Height="32" Margin="340,54,0,0" VerticalAlignment="Top" Width="37" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/Star-Tattoos-Free-Download-PNG.png"/>
+        <Image HorizontalAlignment="Left" Height="12" Margin="477,317,0,0" VerticalAlignment="Top" Width="14" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/danke1.png" MouseDown="aPicture_MouseDown"/>
+        <Image Height="12" Margin="523,317,0,0" VerticalAlignment="Top" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/danke1.png" MouseDown="aPicture_MouseDown" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="14">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180
+                                     "/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>
