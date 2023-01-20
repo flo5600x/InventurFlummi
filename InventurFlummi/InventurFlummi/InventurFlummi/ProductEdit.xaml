@@ -6,7 +6,35 @@
         xmlns:local="clr-namespace:InventurFlummi"
         mc:Ignorable="d"
         Title="ProductEdit" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#262626">
+        <Rectangle HorizontalAlignment="Center" Height="386" Margin="0,17,0,0" Fill="#FF595959" VerticalAlignment="Top" Width="738" RadiusX="5" RadiusY="5"/>
+
+        <Label Content="Produktname:" HorizontalAlignment="Left" Margin="81,50,0,0" VerticalAlignment="Top" Foreground="White" Width="201" Height="41" FontSize="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="41" Margin="317,50,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="381" Fill="#FFA6A6A6" RadiusX="5" RadiusY="5"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="317,50,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Width="381" Foreground="White" SelectionTextBrush="White" Background="#00A6A6A6" BorderBrush="#00ABADB3"/>
+
+        <Label Content="Produktbeschreibung:" HorizontalAlignment="Left" Margin="81,100,0,0" VerticalAlignment="Top" Foreground="White" Width="201" Height="41" FontSize="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="41" Margin="317,100,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="381" Fill="#FFA6A6A6" RadiusX="5" RadiusY="5"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="317,100,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Width="381" Foreground="White" SelectionTextBrush="White" Background="#00A6A6A6" BorderBrush="#00ABADB3"/>
+
+        <Label Content="Bild:" HorizontalAlignment="Left" Margin="81,150,0,0" VerticalAlignment="Top" Foreground="White" Width="201" Height="41" FontSize="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="41" Margin="317,150,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="381" Fill="#FFA6A6A6" RadiusX="5" RadiusY="5"/>
+        <Button Content="Hochladen" HorizontalAlignment="Left" Height="41" Margin=" 317,150,0,0" VerticalAlignment="Top" Width=" 381" Background="#00DDDDDD"></Button>
+
+        <Label Content="Einkaufspreis:" HorizontalAlignment="Left" Margin="81,200,0,0" VerticalAlignment="Top" Foreground="White" Width="201" Height="41" FontSize="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="41" Margin="317,200,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="381" Fill="#FFA6A6A6" RadiusX="5" RadiusY="5"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="317,200,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Width="381" Foreground="White" SelectionTextBrush="White" Background="#00A6A6A6" BorderBrush="#00ABADB3"/>
+
+        <Label Content="Marge:" HorizontalAlignment="Left" Margin="81,250,0,0" VerticalAlignment="Top" Foreground="White" Width="201" Height="41" FontSize="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="41" Margin="317,250,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="381" Fill="#FFA6A6A6" RadiusX="5" RadiusY="5"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="317,250,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Width="381" Foreground="White" SelectionTextBrush="White" Background="#00A6A6A6" BorderBrush="#00ABADB3"/>
+
+        <Label Content="Verkaufspreis:" HorizontalAlignment="Left" Margin="81,300,0,0" VerticalAlignment="Top" Foreground="White" Width="201" Height="41" FontSize="20"/>
+        <Rectangle HorizontalAlignment="Left" Height="41" Margin="317,300,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="381" Fill="#FFA6A6A6" RadiusX="5" RadiusY="5"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="317,300,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Width="381" Foreground="White" SelectionTextBrush="White" Background="#00A6A6A6" BorderBrush="#00ABADB3"/>
+
+        <Rectangle HorizontalAlignment="Left" Margin=" 411, 346,0,0" Height="46" VerticalAlignment="Top" Width="193" Fill="#FFFF667B" Stroke="#00000000" OpacityMask="White" RadiusX="5" RadiusY="5"></Rectangle>
+        <Button Content="Speichern" HorizontalAlignment="Left" Height="46" Margin="411,346,0,0" VerticalAlignment="Top" Width="193" Background="#00FF667B" BorderBrush="#00707070" Foreground="White"/>
+
     </Grid>
 </Window>
