@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:InventurFlummi"
         mc:Ignorable="d"
         Title="SaveList" Height="450" Width="800">
-    <Grid Background="#A6A6A6">
+    <Grid Background="#FF262626">
         <Label Content="Merkliste" HorizontalAlignment="Left" Margin="254,10,0,0" VerticalAlignment="Top" Width="275" Height="42" FontSize="18"/>
 
         <Rectangle HorizontalAlignment="Left" VerticalAlignment="Top" Width="87" Height="33" Fill="#595959" Margin="19,10,0,0" RadiusX="7" RadiusY="5"></Rectangle>
@@ -24,10 +24,10 @@
         <Rectangle HorizontalAlignment="Right" Height="286" Margin="0,68,0,0" Stroke="White" VerticalAlignment="Top" Width="133" Fill="#262626" RadiusX="5" RadiusY="5"/>
         <Label Content="Menu" HorizontalAlignment="Right" Margin="0,78,32,0" VerticalAlignment="Top" Foreground="White" FontSize="16" Width="65" Height="35"/>
         <Button Content="Artikel hinzufügen" HorizontalAlignment="Right" Height="27" Margin="0,113,10,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
-        <Button Content="Layout ändern" HorizontalAlignment="Right" Height="27" Margin="0,135,10,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
-        <Button Content="Zu Kundenansicht wechseln" HorizontalAlignment="Right" Height="31" Margin="681,158,0,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070" FontSize="8"/>
-        <Button Content="Bestellungen" HorizontalAlignment="Right" Height="31" Margin="0,184,10,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
-        <Button Content="Einstellungen" HorizontalAlignment="Right" Height="31" Margin="0,211,10,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
+        <Button Content="Layout ändern" HorizontalAlignment="Right" Height="27" Margin="0,135,25,0" VerticalAlignment="Top" Width="99" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
+        <Button Content="Zu Kundenansicht wechseln" HorizontalAlignment="Right" Height="31" Margin="0,158,7,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070" FontSize="8"/>
+        <Button Content="Bestellungen" HorizontalAlignment="Right" Height="31" Margin="0,184,20,0" VerticalAlignment="Top" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070"/>
+        <Button Content="Einstellungen" Height="31" Margin="0,211,20,0" Width="109" Background="#00DDDDDD" Foreground="White" BorderBrush="#00707070" HorizontalAlignment="Right" VerticalAlignment="Top"/>
         <Button Content="Abmelden" HorizontalAlignment="Right" Height="27" Margin="0,310,10,0" VerticalAlignment="Top" Width="109" Background="#FFFF667B" Foreground="White"/>
 
         <ScrollViewer Margin="165,68,150,10">
@@ -47,31 +47,31 @@
                         <RowDefinition Height="50*"/>
                     </Grid.RowDefinitions>
 
-                    <Rectangle Grid.Column="0" Grid.Row="0" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
-                    <Rectangle Grid.Column="0" Grid.Row="0" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.Row="0" Height="150" Width="150" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.Row="0" Height="100" Width="100" Fill="#A6A6A6" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label Grid.Column="0" Grid.Row="0" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
                     <Image Grid.Column="0"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="IMAGES\/20211127_101158.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
 
 
-                    <Rectangle Grid.Column="1" Grid.Row="0" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
-                    <Rectangle Grid.Column="2" Grid.Row="0" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="1" Grid.Row="0" Height="150" Width="150" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="2" Grid.Row="0" Height="100" Width="100" Fill="#A6A6A6" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label  Grid.Column="1" Grid.Row="0" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
                     <Image Grid.Column="1" Grid.Row="0" Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="IMAGES\/20211229_143238.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
 
 
-                    <Rectangle Grid.Column="0" Grid.Row="1" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
-                    <Rectangle Grid.Column="0" Grid.Row="1" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.Row="1" Height="150" Width="150" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.Row="1" Height="100" Width="100" Fill="#A6A6A6" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label  Grid.Column="0" Grid.Row="1" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
                     <Image Grid.Column="0" Grid.Row="1"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="IMAGES\/20221216_174524.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
 
 
-                    <Rectangle Grid.Column="1" Grid.Row="1" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
-                    <Rectangle Grid.Column="1" Grid.Row="1" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="1" Grid.Row="1" Height="150" Width="150" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="1" Grid.Row="1" Height="100" Width="100" Fill="#A6A6A6" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label Grid.Column="1" Grid.Row="1" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
                     <Image Grid.Column="1" Grid.Row="1"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Stretch="UniformToFill" StretchDirection="DownOnly" Source="IMAGES\/20221120_141748.jpg"/>
 
-                    <Rectangle Grid.Column="0" Grid.Row="2" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
-                    <Rectangle Grid.Column="0" Grid.Row="2" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.Row="2" Height="150" Width="150" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
+                    <Rectangle Grid.Column="0" Grid.Row="2" Height="100" Width="100" Fill="#A6A6A6" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label Grid.Column="0" Grid.Row="2" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
                     <Image Grid.Column="0" Grid.Row="2"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="IMAGES/20220125_150512.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
 
