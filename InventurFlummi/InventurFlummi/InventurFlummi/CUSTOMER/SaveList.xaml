@@ -50,30 +50,30 @@
                     <Rectangle Grid.Column="0" Grid.Row="0" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
                     <Rectangle Grid.Column="0" Grid.Row="0" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label Grid.Column="0" Grid.Row="0" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
-                    <Image Grid.Column="0"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/20211127_101158.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
+                    <Image Grid.Column="0"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="IMAGES\/20211127_101158.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
 
 
                     <Rectangle Grid.Column="1" Grid.Row="0" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
                     <Rectangle Grid.Column="2" Grid.Row="0" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label  Grid.Column="1" Grid.Row="0" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
-                    <Image Grid.Column="1" Grid.Row="0" Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/20211229_143238.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
+                    <Image Grid.Column="1" Grid.Row="0" Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="IMAGES\/20211229_143238.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
 
 
                     <Rectangle Grid.Column="0" Grid.Row="1" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
                     <Rectangle Grid.Column="0" Grid.Row="1" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label  Grid.Column="0" Grid.Row="1" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
-                    <Image Grid.Column="0" Grid.Row="1"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/20221216_174524.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
+                    <Image Grid.Column="0" Grid.Row="1"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="IMAGES\/20221216_174524.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
 
 
                     <Rectangle Grid.Column="1" Grid.Row="1" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
                     <Rectangle Grid.Column="1" Grid.Row="1" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label Grid.Column="1" Grid.Row="1" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
-                    <Image Grid.Column="1" Grid.Row="1"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Stretch="UniformToFill" StretchDirection="DownOnly" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/20221120_141748.jpg"/>
+                    <Image Grid.Column="1" Grid.Row="1"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Stretch="UniformToFill" StretchDirection="DownOnly" Source="IMAGES\/20221120_141748.jpg"/>
 
                     <Rectangle Grid.Column="0" Grid.Row="2" Height="150" Width="150" Fill="#262626" RadiusX="5" RadiusY="5"></Rectangle>
                     <Rectangle Grid.Column="0" Grid.Row="2" Height="100" Width="100" Fill="#595959" RadiusX="5" RadiusY="5"></Rectangle>
                     <Label Grid.Column="0" Grid.Row="2" Content="Name" FontSize="12" Foreground="White" Margin="0,128,0,4" HorizontalAlignment="Center" />
-                    <Image Grid.Column="0" Grid.Row="2"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="/20220125_150512.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
+                    <Image Grid.Column="0" Grid.Row="2"  Height="90" Width="90" Margin="74,0,74,0" VerticalAlignment="Center" Source="IMAGES/20220125_150512.jpg" Stretch="UniformToFill" StretchDirection="DownOnly"/>
 
 
                 </Grid>
