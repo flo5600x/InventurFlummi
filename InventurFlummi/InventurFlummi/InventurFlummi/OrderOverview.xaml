@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:InventurFlummi"
         mc:Ignorable="d"
         Title="OrderOverview" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FF262626">
+        <Rectangle HorizontalAlignment="Center" Height="388" Stroke="Black" VerticalAlignment="Top" Width="768" Fill="#FF595959" RadiusX="5" RadiusY="5" Margin="0,36,0,0"/>
     </Grid>
 </Window>

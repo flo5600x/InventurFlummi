@@ -9,22 +9,22 @@
     <Grid Background="#FF262626">
         <Rectangle HorizontalAlignment="Center" Height="357" Stroke="Black" VerticalAlignment="Top" Width="768" Fill="#FF595959" RadiusX="5" RadiusY="5" Margin="0,57,0,0"/>
         <Grid HorizontalAlignment="Left" Height="106" Margin="35,40,0,0" VerticalAlignment="Top" Width="726">
-            <Label Content="Warenkorb" HorizontalAlignment="Center" Margin="0,-37,0,0" VerticalAlignment="Top" FontSize="30" Foreground="White"/>
+            <Label Content="Warenkorb" HorizontalAlignment="Center" Margin="0,-37,0,0" VerticalAlignment="Top" FontSize="30" Foreground="White" FontWeight="Bold" FontStyle="Italic"/>
         </Grid>
         <Image HorizontalAlignment="Left" Height="69" Margin="35,77,0,0" VerticalAlignment="Top" Width="69" Source="/CUSTOMER/20211127_101158.jpg" Stretch="Fill"/>
         <Image HorizontalAlignment="Left" Height="69" Margin="35,0,0,0" VerticalAlignment="Center" Width="69" Source="/CUSTOMER/20220125_150512.jpg" Stretch="Fill"/>
         <Image HorizontalAlignment="Left" Height="69" Margin="35,290,0,0" VerticalAlignment="Top" Width="69" Source="/CUSTOMER/20221120_141748.jpg" Stretch="Fill"/>
-        <Label Content="Katze 1 coole neue katze für mich uwu " HorizontalAlignment="Left" Margin="133,76,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <Label Content="Katze 1 coole neue katze für mich uwu " HorizontalAlignment="Left" Margin="133,76,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="Bold"/>
         <Label Content="Super tolle katze mit der man kuscheln kann jawoll. Johanna approved uhm jo keine ahnung." HorizontalAlignment="Left" Margin="133,110,0,0" VerticalAlignment="Top" Foreground="White" FontSize="10"/>
         <Label Content="90 €" HorizontalAlignment="Left" Height="40" Margin="682,95,0,0" VerticalAlignment="Top" Width="52" FontSize="22" Foreground="White"/>
         <Image HorizontalAlignment="Left" Height="24" Margin="748,103,0,0" VerticalAlignment="Top" Width="32" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/Trash-Clipart-PNG-File.png"/>
 
-        <Label Content="Katze 1 coole neue katze für mich uwu " HorizontalAlignment="Left" Margin="133,183,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <Label Content="Katze 1 coole neue katze für mich uwu " HorizontalAlignment="Left" Margin="133,183,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="Bold"/>
         <Label Content="Super tolle katze mit der man kuscheln kann jawoll. Johanna approved uhm jo keine ahnung." HorizontalAlignment="Left" Margin="133,217,0,0" VerticalAlignment="Top" Foreground="White" FontSize="10"/>
         <Label Content="90 €" HorizontalAlignment="Left" Height="40" Margin="682,204,0,0" VerticalAlignment="Top" Width="52" FontSize="22" Foreground="White"/>
         <Image HorizontalAlignment="Left" Height="24" Margin="748,212,0,0" VerticalAlignment="Top" Width="32" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/Trash-Clipart-PNG-File.png"/>
 
-        <Label Content="Katze 1 coole neue katze für mich uwu " HorizontalAlignment="Left" Margin="133,284,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <Label Content="Katze 1 coole neue katze für mich uwu " HorizontalAlignment="Left" Margin="133,284,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="Bold"/>
         <Label Content="Super tolle katze mit der man kuscheln kann jawoll. Johanna approved uhm jo keine ahnung." HorizontalAlignment="Left" Margin="133,317,0,0" VerticalAlignment="Top" Foreground="White" FontSize="10"/>
         <Label Content="90 €" HorizontalAlignment="Left" Height="40" Margin="682,309,0,0" VerticalAlignment="Top" Width="52" FontSize="22" Foreground="White"/>
         <Image HorizontalAlignment="Left" Height="24" Margin="748,317,0,0" VerticalAlignment="Top" Width="32" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/Trash-Clipart-PNG-File.png"/>
