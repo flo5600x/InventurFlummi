@@ -7,10 +7,8 @@
         mc:Ignorable="d"
         Title="SaveList" Height="450" Width="800">
     <Grid Background="#FF262626">
-        <Label Content="Merkliste" HorizontalAlignment="Left" Margin="254,10,0,0" VerticalAlignment="Top" Width="275" Height="42" FontSize="18"/>
-
-        <Rectangle HorizontalAlignment="Left" VerticalAlignment="Top" Width="87" Height="33" Fill="#595959" Margin="19,10,0,0" RadiusX="7" RadiusY="5"></Rectangle>
-        <TextBox x:Name="search" Text="Suche..."  HorizontalAlignment="Left" Height="33" Margin="19,10,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="87" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16" Background="Transparent"/>
+        <Label Content="Merkliste" HorizontalAlignment="Center" Margin="0,19,0,0" VerticalAlignment="Top" Width="86" Height="42" FontSize="18" Foreground="White"/>
+        <TextBox x:Name="search" Text="Suche..."  HorizontalAlignment="Left" Height="32" Margin="10,24,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="87" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="16" Background="#FF595959"/>
 
 
         <Rectangle HorizontalAlignment="Left" Height="286" Margin="0,68,0,0" Stroke="White" VerticalAlignment="Top" Width="145" Fill="#262626" RadiusX="5" RadiusY="5"/>
