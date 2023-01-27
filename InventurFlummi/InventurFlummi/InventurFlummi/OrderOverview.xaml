@@ -8,5 +8,54 @@
         Title="OrderOverview" Height="450" Width="800">
     <Grid Background="#FF262626">
         <Rectangle HorizontalAlignment="Center" Height="388" Stroke="Black" VerticalAlignment="Top" Width="768" Fill="#FF595959" RadiusX="5" RadiusY="5" Margin="0,36,0,0"/>
+
+        <Label Content="Nr." HorizontalAlignment="Left" Height="32" Margin="36,51,0,0" VerticalAlignment="Top" Width="38" Foreground="White" FontSize="18"/>
+        <Label Content="Datum" HorizontalAlignment="Left" Height="32" Margin="102,51,0,0" VerticalAlignment="Top" Width="94" Foreground="White" FontSize="18"/>
+        <Label Content="Produkt" HorizontalAlignment="Left" Height="32" Margin="256,51,0,0" VerticalAlignment="Top" Width="80" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5"></Label>
+        <Label Content="Preis" HorizontalAlignment="Left" Height="32" Margin="444,51,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="Stück" HorizontalAlignment="Left" Height="32" Margin="543,51,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="Nutzer" HorizontalAlignment="Left" Height="32" Margin="687,51,0,0" VerticalAlignment="Top" Width="72" Foreground="White" FontSize="18"/>
+        <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,83,0,0" VerticalAlignment="Top" Width="744" Fill="White" RadiusX="6" RadiusY="6"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="36,100,0,0" VerticalAlignment="Top" Width="38" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="102,100,0,0" VerticalAlignment="Top" Width="94" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="256,100,0,0" VerticalAlignment="Top" Width="80" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="444,100,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="543,100,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="687,100,0,0" VerticalAlignment="Top" Width="72" Foreground="White" FontSize="18"/>
+
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="36,150,0,0" VerticalAlignment="Top" Width="38" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="102,150,0,0" VerticalAlignment="Top" Width="94" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="256,150,0,0" VerticalAlignment="Top" Width="80" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="444,150,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="543,150,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="687,150,0,0" VerticalAlignment="Top" Width="72" Foreground="White" FontSize="18"/>
+
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="36,200,0,0" VerticalAlignment="Top" Width="38" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="102,200,0,0" VerticalAlignment="Top" Width="94" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="256,200,0,0" VerticalAlignment="Top" Width="80" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="444,200,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="543,200,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="687,200,0,0" VerticalAlignment="Top" Width="72" Foreground="White" FontSize="18"/>
+
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="36,250,0,0" VerticalAlignment="Top" Width="38" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="102,250,0,0" VerticalAlignment="Top" Width="94" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="256,250,0,0" VerticalAlignment="Top" Width="80" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="444,250,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="543,250,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="687,250,0,0" VerticalAlignment="Top" Width="72" Foreground="White" FontSize="18"/>
+
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="36,300,0,0" VerticalAlignment="Top" Width="38" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="102,300,0,0" VerticalAlignment="Top" Width="94" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="256,300,0,0" VerticalAlignment="Top" Width="80" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="444,300,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="543,300,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="687,300,0,0" VerticalAlignment="Top" Width="72" Foreground="White" FontSize="18"/>
+
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="36,350,0,0" VerticalAlignment="Top" Width="38" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="102,350,0,0" VerticalAlignment="Top" Width="94" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="256,350,0,0" VerticalAlignment="Top" Width="80" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="444,350,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="543,350,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
+        <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="687,350,0,0" VerticalAlignment="Top" Width="72" Foreground="White" FontSize="18"/>
     </Grid>
 </Window>
