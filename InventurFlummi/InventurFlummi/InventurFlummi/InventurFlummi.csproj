@@ -9,6 +9,22 @@
 
   <ItemGroup>
     <None Remove="20211229_143238.jpg" />
+    <None Remove="CUSTOMER\20211127_101158.jpg" />
+    <None Remove="CUSTOMER\20220125_150512.jpg" />
+    <None Remove="CUSTOMER\20221120_141748.jpg" />
+    <None Remove="CUSTOMER\IMAGES\20211127_101158.jpg" />
+    <None Remove="CUSTOMER\IMAGES\20211229_143238.jpg" />
+    <None Remove="CUSTOMER\IMAGES\20220125_150512.jpg" />
+    <None Remove="CUSTOMER\IMAGES\20221120_141748.jpg" />
+    <None Remove="CUSTOMER\IMAGES\danke1.png" />
+    <None Remove="CUSTOMER\IMAGES\hero-char.png" />
+    <None Remove="CUSTOMER\IMAGES\meow.png" />
+    <None Remove="CUSTOMER\IMAGES\MicrosoftTeams-image.png" />
+    <None Remove="CUSTOMER\IMAGES\mull.png" />
+    <None Remove="CUSTOMER\IMAGES\pp.png" />
+    <None Remove="CUSTOMER\IMAGES\Star-Tattoos-Free-Download-PNG.png" />
+    <None Remove="CUSTOMER\IMAGES\Trash-Clipart-PNG-File.png" />
+    <None Remove="CUSTOMER\IMAGES\visa.png" />
     <None Remove="danke1.png" />
     <None Remove="hero-char.png" />
     <None Remove="meow.png" />
@@ -21,16 +37,29 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="IMAGES\20211229_143238.jpg" />
-    <Resource Include="IMAGES\danke1.png" />
-    <Resource Include="IMAGES\hero-char.png" />
-    <Resource Include="IMAGES\meow.png" />
-    <Resource Include="IMAGES\MicrosoftTeams-image.png" />
-    <Resource Include="IMAGES\mull.png" />
-    <Resource Include="IMAGES\pp.png" />
-    <Resource Include="IMAGES\Star-Tattoos-Free-Download-PNG.png" />
-    <Resource Include="IMAGES\Trash-Clipart-PNG-File.png" />
-    <Resource Include="IMAGES\visa.png" />
+    <Resource Include="CUSTOMER\IMAGES\20211127_101158.jpg" />
+    <Resource Include="CUSTOMER\IMAGES\20211229_143238.jpg" />
+    <Resource Include="CUSTOMER\IMAGES\20220125_150512.jpg" />
+    <Resource Include="CUSTOMER\IMAGES\20221120_141748.jpg" />
+    <Resource Include="CUSTOMER\IMAGES\danke1.png" />
+    <Resource Include="CUSTOMER\IMAGES\hero-char.png" />
+    <Resource Include="CUSTOMER\IMAGES\meow.png" />
+    <Resource Include="CUSTOMER\IMAGES\MicrosoftTeams-image.png" />
+    <Resource Include="CUSTOMER\IMAGES\mull.png" />
+    <Resource Include="CUSTOMER\IMAGES\pp.png" />
+    <Resource Include="CUSTOMER\IMAGES\Star-Tattoos-Free-Download-PNG.png" />
+    <Resource Include="CUSTOMER\IMAGES\Trash-Clipart-PNG-File.png" />
+    <Resource Include="CUSTOMER\IMAGES\visa.png" />
+    <Resource Include="ADMIN\IMAGES\20211229_143238.jpg" />
+    <Resource Include="ADMIN\IMAGES\danke1.png" />
+    <Resource Include="ADMIN\IMAGES\hero-char.png" />
+    <Resource Include="ADMIN\IMAGES\meow.png" />
+    <Resource Include="ADMIN\IMAGES\MicrosoftTeams-image.png" />
+    <Resource Include="ADMIN\IMAGES\mull.png" />
+    <Resource Include="ADMIN\IMAGES\pp.png" />
+    <Resource Include="ADMIN\IMAGES\Star-Tattoos-Free-Download-PNG.png" />
+    <Resource Include="ADMIN\IMAGES\Trash-Clipart-PNG-File.png" />
+    <Resource Include="ADMIN\IMAGES\visa.png" />
   </ItemGroup>
 
 </Project>
