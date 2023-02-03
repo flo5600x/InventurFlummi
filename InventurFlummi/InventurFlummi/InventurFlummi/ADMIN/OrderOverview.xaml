@@ -57,5 +57,6 @@
         <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="444,350,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
         <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="543,350,0,0" VerticalAlignment="Top" Width="55" Foreground="White" FontSize="18"/>
         <Label Content="..." HorizontalAlignment="Left" Height="32" Margin="687,350,0,0" VerticalAlignment="Top" Width="72" Foreground="White" FontSize="18"/>
+        <Label Content="Bestellübersicht" HorizontalAlignment="Left" Height="41" Margin="310,0,0,0" VerticalAlignment="Top" Width="189" Foreground="White" FontSize="22"/>
     </Grid>
 </Window>
