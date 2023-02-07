@@ -19,7 +19,7 @@
         <Label Content="in den Light Mode wechseln?" HorizontalAlignment="Left" Margin="53,316,0,0" VerticalAlignment="Top" Foreground="White" FontSize="10"/>
         <Button Content="Kunde" HorizontalAlignment="Left" Height="27" Margin="39,359,0,0" VerticalAlignment="Top" Width="111" Background="#FFFF667B" Foreground="White"/>
         <Button Content="Admin" HorizontalAlignment="Left" Height="27" Margin="208,359,0,0" VerticalAlignment="Top" Width="109" Background="#FFFF667B" Foreground="White"/>
-        <Image HorizontalAlignment="Left" Height="497" Margin="327,54,0,0" VerticalAlignment="Top" Width="473" RenderTransformOrigin="0.51,0.547" Source="\\iPSFS\fejzic.melissa$\Documents\GitHub\InventurFlummi\InventurFlummi\InventurFlummi\InventurFlummi\IMAGES\/MicrosoftTeams-image.png">
+        <Image HorizontalAlignment="Left" Height="497" Margin="327,54,0,0" VerticalAlignment="Top" Width="473" RenderTransformOrigin="0.51,0.547" Source="ADMIN\IMAGES\/MicrosoftTeams-image.png">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
